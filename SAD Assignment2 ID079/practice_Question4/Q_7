@@ -1,0 +1,12 @@
+void main() {
+  Map<String, String> data = {
+    "name": "simla",
+    "phone": "01700000000"
+  };
+
+  var result =
+      data.keys.where((key) => key.length == 4);
+
+  print(result.toList());
+}
+

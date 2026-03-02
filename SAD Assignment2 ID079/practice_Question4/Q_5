@@ -1,0 +1,16 @@
+void main() {
+  List<String> friends = [
+    "Anik",
+    "Rahim",
+    "Arif",
+    "Sumi",
+    "Akash",
+    "Nila",
+    "Karim"
+  ];
+
+  var result =
+      friends.where((name) => name.startsWith('A'));
+
+  print(result.toList());
+}
